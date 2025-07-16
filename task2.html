@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body{
+                background-color: gray;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            div{
+                text-align: center;
+            }
+            div h1{
+                color: hsl(240, 42%, 30%);
+            }
+            div p{
+                font-style: italic;
+                color: rgb(0, 0, 0);
+            }
+            div a{
+                margin-left: 25px;
+            }
+            form{
+                background-color: white;
+                margin-top: 25px;
+                margin-left: 25px;
+                margin-right: 30px;
+                margin-bottom: 30px;
+            }
+            form h2{
+                text-align: center;
+                color: hsl(240, 42%, 30%);
+            }
+            form input{
+                width: 98%;
+            }
+            form textarea{
+                width: 98%;
+            }
+            form button{
+                background-color: hsl(240, 42%, 30%);
+                color: beige;
+            }
+            table{
+                background-color: white;
+                width: 95%;
+                margin-left: 25px;
+                margin-right: 25px;
+            }
+            table .first{
+                background-color: hsl(240, 42%, 30%);
+                color: beige;
+            }
+        </style>
+</head>
+
+<body>
+    <div>
+        <h1>Kimberly Sada</h1>
+        <p>Frontend Developer and Designer</p>
+        <a href="https://x.com/" target='_blank'><i class="fa-brands fa-twitter"></i></a><a href="https://github.com/"
+            target='_blank'><i class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/"
+            target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <form action="">
+        <h2>Contact Me</h2>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="enter your name" name="name" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="enter your email" name="email" required><br>
+        <label for="message">Message</label><br>
+        <textarea name="Message" id="Message" placeholder="enter message"></textarea><br>
+        <button type="submit">Send Message</button>
+    </form>
+    <table>
+        <tr class="first">
+        <th>#</th>
+        <th>Skill</th>
+        <th>Proficiency</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>HTML & CSS</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>React</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Python</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>Git and GitHub</td>
+        <td>Advanced</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
