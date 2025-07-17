@@ -10,10 +10,12 @@
             font-family: Cambria, Cochin, Georgia, Times, serif;
         }
         .block1{
-            background-color: rgb(61, 61, 216);
+            background-color:skyblue;
             padding: 30px;
-            margin-top: 10px;
-            border-radius: 20px;
+            border-radius:20px;
+            display:flex;
+            justify-content:space-between;
+            margin: auto;
         }
         .nav{
             font-size: x-large;
@@ -24,6 +26,7 @@
             margin: 0;
             padding: 0;
             list-style: none;
+            display: flex;
         }
         .list li{
             float: right;
@@ -34,6 +37,17 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            font-size: large;
+        }
+        .list a:hover{
+            color: darkslategray;
+            background-color: deepskyblue;
+        }
+        h1{
+            margin-top: 100px;
+        }
+        h1 .blue{
+            color: aquamarine;
         }
     </style>
 </head>
@@ -47,5 +61,6 @@
             <li><a href="">Our Work</a></li>
         </ul>
     </div>
+<h1><span>Navigation bar</span><br><span class="blu">Using HTML & CSS</span></h1>
 </body>
 </html>
