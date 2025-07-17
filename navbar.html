@@ -4,34 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: gainsboro;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav1{
+            background-color: rgb(56, 54, 54);
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .nav1 .list1{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+            font-size: larger;
+            
+        }
+        .nav1 a{
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        .logo1{
+            padding: 5px;
+            margin-left: 10px;
+            color: white;
+        }
+        .nav2{
+            background-color: rgb(56, 54, 54);
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+        .nav2 .list2{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+            font-size: larger;
+            
+        }
+        .nav2 a{
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        .logo{
+            color: white;
+            margin-right: 100px;
+            padding: 5px;
+        }
+        .nav3{
+            background-color: rgb(56, 54, 54);
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+        }
+        .nav3 .list3{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+            font-size: larger;
+            margin-left: 650px;
+            
+        }
+        .nav3 a{
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        .con1, .con2, .con3{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+            font-size: larger;
+            background-color: rgb(63, 143, 143);
+            margin-top: 10px;
+            margin-right: 100px;
+            border-radius: 20px;
+            text-align: center;
+            align-items: center;
+        }
+        .con2{
+            margin-right: 800px;
+        }
+    </style>
 </head>
 <body>
     <div class="nav1">
-        <h2>LOGOBAKERY</h2>
+        <h2 class="logo1">LOGOBAKERY</h2>
         <ul class="list1">
             <li><a href="">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
         </ul>
+        <ul class="con1"><a href="">Contact</a></ul>
     </div>
     <div class="nav2">
         <ul class="list2">
             <li><a href="">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
         </ul>
-        <h2>LOGOBAKERY</h2>
+        <ul class="con2"><li><a href="">Contact</a></li></ul>
+        <h2 class="logo">LOGOBAKERY</h2>
     </div>
     <div class="nav3">
-        <h2>LOGOBAKERY</h2>
+        <h2 class="logo1">LOGOBAKERY</h2>
         <ul class="list3">
             <li><a href="">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
         </ul>
+        <ul class="con3"><li><a href="">Contact</a></li></ul>
     </div>
 </body>
 </html>
