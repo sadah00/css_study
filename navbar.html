@@ -5,97 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body{
             background-color: gainsboro;
-            font-size: 10px;
+            font-size: 12px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .nav1{
-            background-color: rgb(56, 54, 54);
+        
+        .nav1, .nav2, .nav3 {
+            width: 90%;
+            height: 80px;
+            margin: 50px auto;
+        }
+
+        .nav1 {
+            background-color: #333;
+            color: white;
+            padding: 10px;
             display: flex;
             justify-content: space-between;
-            width: 90%;
-            margin: auto;
-            margin-top: 100px;
+            align-items: center;
             margin-bottom: 100px;
         }
-        .nav1 .list1{
-            display: flex;
-            list-style: none;
+
+        .nav2 {
+            background-color: #444;
+            color: white;
             padding: 10px;
-            font-size: larger;
-            
-        }
-        .nav1 a{
-            color: white;
-            text-decoration: none;
-            margin-right: 30px;
-        }
-        .logo1{
-            padding: 5px;
-            margin-left: 10px;
-            color: white;
-        }
-        .nav2{
-            background-color: rgb(56, 54, 54);
             display: flex;
             justify-content: space-between;
-            width: 90%;
-            margin: auto;
+            align-items: center;
             margin-bottom: 100px;
         }
-        .nav2 .list2{
-            display: flex;
-            list-style: none;
+
+        .nav3 {
+            background-color: #555;
+            color: white;
             padding: 10px;
-            font-size: larger;
-            
-        }
-        .nav2 a{
-            color: white;
-            text-decoration: none;
-            margin-right: 30px;
-        }
-        .logo{
-            color: white;
-            margin-right: 100px;
-            padding: 5px;
-        }
-        .nav3{
-            background-color: rgb(56, 54, 54);
             display: flex;
             justify-content: space-between;
-            width: 90%;
-            margin: auto;
+            align-items: center;
         }
-        .nav3 .list3{
-            display: flex;
+
+        .list1, .list2, .list3 {
             list-style: none;
-            padding: 10px;
-            font-size: larger;
-            margin-left: 650px;
-            
-        }
-        .nav3 a{
-            color: white;
-            text-decoration: none;
-            margin-right: 30px;
-        }
-        .con1, .con2, .con3{
             display: flex;
-            list-style: none;
-            padding: 10px;
-            font-size: larger;
-            background-color: rgb(63, 143, 143);
-            margin-top: 10px;
-            margin-right: 100px;
-            border-radius: 20px;
+            gap: 20px;
             text-align: center;
             align-items: center;
         }
-        .con2{
-            margin-right: 800px;
+
+        .list1, .list3 {
+            margin-right: 30px;
         }
+
+        .list2 {
+            margin-left: 30px;
+        }
+
+        .logo1 {
+            margin-left: 30px;
+        }
+
+        .logo2 {
+            margin-right: 30px;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .contact {
+            background-color: #1261f3;
+            padding: 5px 10px;
+            border-radius: 15px;
+            list-style: none;
+        }
+
+        .contact1 {
+            background-color: #1261f3;
+            padding: 5px 10px;
+            border-radius: 15px;
+            list-style: none;
+            margin-right: 30px;
+        }
+
     </style>
 </head>
 <body>
@@ -106,25 +107,28 @@
             <li><a href="">Projects</a></li>
             <li><a href="">About</a></li>
         </ul>
-        <ul class="con1"><a href="">Contact</a></ul>
+        <li class="contact1"><a href="">Contact</a></li>
     </div>
+
     <div class="nav2">
         <ul class="list2">
             <li><a href="">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">About</a></li>
+            <li class="contact"><a href="">Contact</a></li>
         </ul>
-        <ul class="con2"><li><a href="">Contact</a></li></ul>
-        <h2 class="logo">LOGOBAKERY</h2>
+        <h2 class="logo2">LOGOBAKERY</h2>
     </div>
+
     <div class="nav3">
         <h2 class="logo1">LOGOBAKERY</h2>
         <ul class="list3">
             <li><a href="">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">About</a></li>
+            <li class="contact"><a href="">Contact</a></li>
         </ul>
-        <ul class="con3"><li><a href="">Contact</a></li></ul>
     </div>
+
 </body>
 </html>
