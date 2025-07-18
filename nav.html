@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: gainsboro;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .nav1, .nav2, .nav3 {
+            width: 90%;
+            height: 80px;
+            margin: 50px auto;
+        }
+
+        .nav1 {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+
+        .nav2 {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+
+        .nav3 {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .list1, .list2, .list3 {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .list1, .list3 {
+            margin-right: 30px;
+        }
+
+        .list2 {
+            margin-left: 30px;
+        }
+
+        .logo1 {
+            margin-left: 30px;
+        }
+
+        .logo2 {
+            margin-right: 30px;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .contact {
+            background-color: #1261f3;
+            padding: 5px 10px;
+            border-radius: 15px;
+            list-style: none;
+        }
+
+        .contact1 {
+            background-color: #1261f3;
+            padding: 5px 10px;
+            border-radius: 15px;
+            list-style: none;
+            margin-right: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav1">
+        <h2 class="logo1">LOGOBAKERY</h2>
+        <ul class="list1">
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <li class="contact1"><a href="">Contact</a></li>
+    </div>
+
+    <div class="nav2">
+        <ul class="list2">
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">About</a></li>
+            <li class="contact"><a href="">Contact</a></li>
+        </ul>
+        <h2 class="logo2">LOGOBAKERY</h2>
+    </div>
+
+    <div class="nav3">
+        <h2 class="logo1">LOGOBAKERY</h2>
+        <ul class="list3">
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">About</a></li>
+            <li class="contact"><a href="">Contact</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
