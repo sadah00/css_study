@@ -21,15 +21,13 @@
             top: 0;
             right: 0;
         }
-
         .main {
             background-color: rgb(243, 233, 233);
             position: relative;
             height: 600px;
             width: 70%;
-            margin-right: 500px;
+            left: 280px;
             top: 90px;
-            padding-top: 100px;
         }
         .sidebar {
             background-color: grey;
@@ -39,6 +37,14 @@
             top: 90px;
             left: 0;
         }
+        .main .sticky{
+            background-color: peachpuff;
+            position: sticky;
+            width: 90%;
+            height: 40px;
+            margin: auto;
+            top: 100px;
+        }
     </style>
 </head>
 
@@ -47,6 +53,9 @@
         <h3>My Fixed Header</h3>
     </div>
     <div class="main">
+        <div class="sticky">
+            <h2>Sticky TOC</h2>
+        </div>
         <h2>Main Content</h2>
         <p>Write lots of content here</p>
     </div>
