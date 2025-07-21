@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: lightsteelblue;
+            height: 500px;
+            width: 80%;
+            margin: auto;
+            position: relative;
+        }
+        .child{
+            background-color: lightcyan;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            right: 100px;
+            bottom: 0;
+        }
+        h2{
+            position: sticky;
+            z-index: 1030;
+            right: 0;
+            top: 0;
+
+        }
+        .test{
+            background-color: lightsalmon;
+            height: 800px;
+        }
+        .test h1{
+            position: fixed;
+            top: 0;
+            left: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child"></div>
+    </div>
+    <h2>Webify</h2>
+    <div class="test">
+        <h1>NavBar</h1>
+    </div>
+</body>
+</html>
