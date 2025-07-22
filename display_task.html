@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .container .block1,
+        .container .block2,
+        .container .block3,
+        .container .block4 {
+            background-color: lightgray;
+            height: 300px;
+            width: 200px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 3px lightslategray;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; */
+        }
+
+        .container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block1">
+            <img src="controlla.webp" alt="">
+            <h2>Product 1</h2>
+            <p>$19.99</p>
+        </div>
+        <div class="block2">
+            <img src="OIP.webp" alt="">
+            <h2>Product 2</h2>
+            <p>$29.99</p>
+        </div>
+        <div class="block3">
+            <img src="van.webp" alt="">
+            <h2>Product 3</h2>
+            <p>$39.99</p>
+        </div>
+        <div class="block4">
+            <img src="rand.webp" alt="">
+            <h2>Product 4</h2>
+            <p>$49.99</p>
+        </div>
+    </div>
+</body>
+
+</html>
